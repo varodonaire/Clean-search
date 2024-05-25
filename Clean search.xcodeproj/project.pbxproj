@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38C543642C0237E5006E477F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C543632C0237E5006E477F /* AppDelegate.swift */; };
+		38C543662C0237E5006E477F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C543652C0237E5006E477F /* SceneDelegate.swift */; };
+		38C543692C0237E5006E477F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 38C543682C0237E5006E477F /* Base */; };
+		38C5436C2C0237E5006E477F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 38C5436B2C0237E5006E477F /* Base */; };
+		38C543752C0237E5006E477F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C543742C0237E5006E477F /* AppDelegate.swift */; };
+		38C543782C0237E5006E477F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 38C543772C0237E5006E477F /* Base */; };
+		38C5437F2C0237E5006E477F /* Clean search Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 38C5437E2C0237E5006E477F /* Clean search Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		38C543892C0237E5006E477F /* Clean search Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 38C543882C0237E5006E477F /* Clean search Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		38C5438F2C0237E5006E477F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 38C5434B2C0237E4006E477F /* Base */; };
+		38C543902C0237E5006E477F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 38C5434B2C0237E4006E477F /* Base */; };
+		38C543912C0237E5006E477F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 38C5434C2C0237E4006E477F /* Icon.png */; };
+		38C543922C0237E5006E477F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 38C5434C2C0237E4006E477F /* Icon.png */; };
+		38C543932C0237E5006E477F /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 38C5434D2C0237E4006E477F /* Style.css */; };
+		38C543942C0237E5006E477F /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 38C5434D2C0237E4006E477F /* Style.css */; };
+		38C543952C0237E5006E477F /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 38C5434E2C0237E4006E477F /* Script.js */; };
+		38C543962C0237E5006E477F /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 38C5434E2C0237E4006E477F /* Script.js */; };
+		38C543972C0237E5006E477F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C5434F2C0237E4006E477F /* ViewController.swift */; };
+		38C543982C0237E5006E477F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C5434F2C0237E4006E477F /* ViewController.swift */; };
+		38C543992C0237E5006E477F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C543502C0237E5006E477F /* Assets.xcassets */; };
+		38C5439A2C0237E5006E477F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C543502C0237E5006E477F /* Assets.xcassets */; };
+		38C5439B2C0237E5006E477F /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C543522C0237E5006E477F /* SafariWebExtensionHandler.swift */; };
+		38C5439C2C0237E5006E477F /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C543522C0237E5006E477F /* SafariWebExtensionHandler.swift */; };
+		38C5439D2C0237E5006E477F /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 38C543542C0237E5006E477F /* _locales */; };
+		38C5439E2C0237E5006E477F /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 38C543542C0237E5006E477F /* _locales */; };
+		38C5439F2C0237E5006E477F /* images in Resources */ = {isa = PBXBuildFile; fileRef = 38C543552C0237E5006E477F /* images */; };
+		38C543A02C0237E5006E477F /* images in Resources */ = {isa = PBXBuildFile; fileRef = 38C543552C0237E5006E477F /* images */; };
+		38C543A12C0237E5006E477F /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 38C543562C0237E5006E477F /* manifest.json */; };
+		38C543A22C0237E5006E477F /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 38C543562C0237E5006E477F /* manifest.json */; };
+		38C543A32C0237E5006E477F /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 38C543572C0237E5006E477F /* background.js */; };
+		38C543A42C0237E5006E477F /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 38C543572C0237E5006E477F /* background.js */; };
+		38C543A52C0237E5006E477F /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 38C543582C0237E5006E477F /* content.js */; };
+		38C543A62C0237E5006E477F /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 38C543582C0237E5006E477F /* content.js */; };
+		38C543A72C0237E5006E477F /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 38C543592C0237E5006E477F /* popup.html */; };
+		38C543A82C0237E5006E477F /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 38C543592C0237E5006E477F /* popup.html */; };
+		38C543A92C0237E5006E477F /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 38C5435A2C0237E5006E477F /* popup.css */; };
+		38C543AA2C0237E5006E477F /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 38C5435A2C0237E5006E477F /* popup.css */; };
+		38C543AB2C0237E5006E477F /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 38C5435B2C0237E5006E477F /* popup.js */; };
+		38C543AC2C0237E5006E477F /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 38C5435B2C0237E5006E477F /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38C543802C0237E5006E477F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38C543442C0237E4006E477F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38C5437D2C0237E5006E477F;
+			remoteInfo = "Clean search Extension (iOS)";
+		};
+		38C5438A2C0237E5006E477F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38C543442C0237E4006E477F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38C543872C0237E5006E477F;
+			remoteInfo = "Clean search Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		38C543B22C0237E5006E477F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				38C5437F2C0237E5006E477F /* Clean search Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C543B92C0237E5006E477F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				38C543892C0237E5006E477F /* Clean search Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		38C5434B2C0237E4006E477F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		38C5434C2C0237E4006E477F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		38C5434D2C0237E4006E477F /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		38C5434E2C0237E4006E477F /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		38C5434F2C0237E4006E477F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38C543502C0237E5006E477F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38C543522C0237E5006E477F /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		38C543542C0237E5006E477F /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		38C543552C0237E5006E477F /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		38C543562C0237E5006E477F /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		38C543572C0237E5006E477F /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		38C543582C0237E5006E477F /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		38C543592C0237E5006E477F /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		38C5435A2C0237E5006E477F /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		38C5435B2C0237E5006E477F /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		38C543602C0237E5006E477F /* Clean search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clean search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C543632C0237E5006E477F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38C543652C0237E5006E477F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		38C543682C0237E5006E477F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38C5436B2C0237E5006E477F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38C5436D2C0237E5006E477F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C543722C0237E5006E477F /* Clean search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clean search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C543742C0237E5006E477F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38C543772C0237E5006E477F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38C543792C0237E5006E477F /* Clean search.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Clean search.entitlements"; sourceTree = "<group>"; };
+		38C5437E2C0237E5006E477F /* Clean search Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Clean search Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C543832C0237E5006E477F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C543882C0237E5006E477F /* Clean search Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Clean search Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C5438D2C0237E5006E477F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38C5438E2C0237E5006E477F /* Clean search.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Clean search.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38C5435D2C0237E5006E477F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C5436F2C0237E5006E477F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C5437B2C0237E5006E477F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C543852C0237E5006E477F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38C543432C0237E4006E477F = {
+			isa = PBXGroup;
+			children = (
+				38C543482C0237E4006E477F /* Shared (App) */,
+				38C543512C0237E5006E477F /* Shared (Extension) */,
+				38C543622C0237E5006E477F /* iOS (App) */,
+				38C543732C0237E5006E477F /* macOS (App) */,
+				38C543822C0237E5006E477F /* iOS (Extension) */,
+				38C5438C2C0237E5006E477F /* macOS (Extension) */,
+				38C543612C0237E5006E477F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38C543482C0237E4006E477F /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				38C5434F2C0237E4006E477F /* ViewController.swift */,
+				38C543502C0237E5006E477F /* Assets.xcassets */,
+				38C543492C0237E4006E477F /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		38C543492C0237E4006E477F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38C5434A2C0237E4006E477F /* Main.html */,
+				38C5434C2C0237E4006E477F /* Icon.png */,
+				38C5434D2C0237E4006E477F /* Style.css */,
+				38C5434E2C0237E4006E477F /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		38C543512C0237E5006E477F /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				38C543522C0237E5006E477F /* SafariWebExtensionHandler.swift */,
+				38C543532C0237E5006E477F /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		38C543532C0237E5006E477F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38C543542C0237E5006E477F /* _locales */,
+				38C543552C0237E5006E477F /* images */,
+				38C543562C0237E5006E477F /* manifest.json */,
+				38C543572C0237E5006E477F /* background.js */,
+				38C543582C0237E5006E477F /* content.js */,
+				38C543592C0237E5006E477F /* popup.html */,
+				38C5435A2C0237E5006E477F /* popup.css */,
+				38C5435B2C0237E5006E477F /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		38C543612C0237E5006E477F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38C543602C0237E5006E477F /* Clean search.app */,
+				38C543722C0237E5006E477F /* Clean search.app */,
+				38C5437E2C0237E5006E477F /* Clean search Extension.appex */,
+				38C543882C0237E5006E477F /* Clean search Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38C543622C0237E5006E477F /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				38C543632C0237E5006E477F /* AppDelegate.swift */,
+				38C543652C0237E5006E477F /* SceneDelegate.swift */,
+				38C543672C0237E5006E477F /* LaunchScreen.storyboard */,
+				38C5436A2C0237E5006E477F /* Main.storyboard */,
+				38C5436D2C0237E5006E477F /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		38C543732C0237E5006E477F /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				38C543742C0237E5006E477F /* AppDelegate.swift */,
+				38C543762C0237E5006E477F /* Main.storyboard */,
+				38C543792C0237E5006E477F /* Clean search.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		38C543822C0237E5006E477F /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				38C543832C0237E5006E477F /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		38C5438C2C0237E5006E477F /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				38C5438D2C0237E5006E477F /* Info.plist */,
+				38C5438E2C0237E5006E477F /* Clean search.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38C5435F2C0237E5006E477F /* Clean search (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38C543B32C0237E5006E477F /* Build configuration list for PBXNativeTarget "Clean search (iOS)" */;
+			buildPhases = (
+				38C5435C2C0237E5006E477F /* Sources */,
+				38C5435D2C0237E5006E477F /* Frameworks */,
+				38C5435E2C0237E5006E477F /* Resources */,
+				38C543B22C0237E5006E477F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38C543812C0237E5006E477F /* PBXTargetDependency */,
+			);
+			name = "Clean search (iOS)";
+			productName = "Clean search (iOS)";
+			productReference = 38C543602C0237E5006E477F /* Clean search.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38C543712C0237E5006E477F /* Clean search (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38C543BA2C0237E5006E477F /* Build configuration list for PBXNativeTarget "Clean search (macOS)" */;
+			buildPhases = (
+				38C5436E2C0237E5006E477F /* Sources */,
+				38C5436F2C0237E5006E477F /* Frameworks */,
+				38C543702C0237E5006E477F /* Resources */,
+				38C543B92C0237E5006E477F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38C5438B2C0237E5006E477F /* PBXTargetDependency */,
+			);
+			name = "Clean search (macOS)";
+			productName = "Clean search (macOS)";
+			productReference = 38C543722C0237E5006E477F /* Clean search.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38C5437D2C0237E5006E477F /* Clean search Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38C543AF2C0237E5006E477F /* Build configuration list for PBXNativeTarget "Clean search Extension (iOS)" */;
+			buildPhases = (
+				38C5437A2C0237E5006E477F /* Sources */,
+				38C5437B2C0237E5006E477F /* Frameworks */,
+				38C5437C2C0237E5006E477F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clean search Extension (iOS)";
+			productName = "Clean search Extension (iOS)";
+			productReference = 38C5437E2C0237E5006E477F /* Clean search Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		38C543872C0237E5006E477F /* Clean search Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38C543B62C0237E5006E477F /* Build configuration list for PBXNativeTarget "Clean search Extension (macOS)" */;
+			buildPhases = (
+				38C543842C0237E5006E477F /* Sources */,
+				38C543852C0237E5006E477F /* Frameworks */,
+				38C543862C0237E5006E477F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clean search Extension (macOS)";
+			productName = "Clean search Extension (macOS)";
+			productReference = 38C543882C0237E5006E477F /* Clean search Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38C543442C0237E4006E477F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					38C5435F2C0237E5006E477F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					38C543712C0237E5006E477F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					38C5437D2C0237E5006E477F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					38C543872C0237E5006E477F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 38C543472C0237E4006E477F /* Build configuration list for PBXProject "Clean search" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38C543432C0237E4006E477F;
+			productRefGroup = 38C543612C0237E5006E477F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38C5435F2C0237E5006E477F /* Clean search (iOS) */,
+				38C543712C0237E5006E477F /* Clean search (macOS) */,
+				38C5437D2C0237E5006E477F /* Clean search Extension (iOS) */,
+				38C543872C0237E5006E477F /* Clean search Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38C5435E2C0237E5006E477F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C543912C0237E5006E477F /* Icon.png in Resources */,
+				38C543692C0237E5006E477F /* Base in Resources */,
+				38C5438F2C0237E5006E477F /* Base in Resources */,
+				38C543952C0237E5006E477F /* Script.js in Resources */,
+				38C543992C0237E5006E477F /* Assets.xcassets in Resources */,
+				38C5436C2C0237E5006E477F /* Base in Resources */,
+				38C543932C0237E5006E477F /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C543702C0237E5006E477F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C543922C0237E5006E477F /* Icon.png in Resources */,
+				38C543942C0237E5006E477F /* Style.css in Resources */,
+				38C543782C0237E5006E477F /* Base in Resources */,
+				38C543962C0237E5006E477F /* Script.js in Resources */,
+				38C5439A2C0237E5006E477F /* Assets.xcassets in Resources */,
+				38C543902C0237E5006E477F /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C5437C2C0237E5006E477F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C543A32C0237E5006E477F /* background.js in Resources */,
+				38C543A92C0237E5006E477F /* popup.css in Resources */,
+				38C543A72C0237E5006E477F /* popup.html in Resources */,
+				38C5439F2C0237E5006E477F /* images in Resources */,
+				38C543A12C0237E5006E477F /* manifest.json in Resources */,
+				38C5439D2C0237E5006E477F /* _locales in Resources */,
+				38C543A52C0237E5006E477F /* content.js in Resources */,
+				38C543AB2C0237E5006E477F /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C543862C0237E5006E477F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C543A42C0237E5006E477F /* background.js in Resources */,
+				38C543AA2C0237E5006E477F /* popup.css in Resources */,
+				38C543A82C0237E5006E477F /* popup.html in Resources */,
+				38C543A02C0237E5006E477F /* images in Resources */,
+				38C543A22C0237E5006E477F /* manifest.json in Resources */,
+				38C5439E2C0237E5006E477F /* _locales in Resources */,
+				38C543A62C0237E5006E477F /* content.js in Resources */,
+				38C543AC2C0237E5006E477F /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38C5435C2C0237E5006E477F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C543972C0237E5006E477F /* ViewController.swift in Sources */,
+				38C543642C0237E5006E477F /* AppDelegate.swift in Sources */,
+				38C543662C0237E5006E477F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C5436E2C0237E5006E477F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C543982C0237E5006E477F /* ViewController.swift in Sources */,
+				38C543752C0237E5006E477F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C5437A2C0237E5006E477F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C5439B2C0237E5006E477F /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C543842C0237E5006E477F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C5439C2C0237E5006E477F /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38C543812C0237E5006E477F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38C5437D2C0237E5006E477F /* Clean search Extension (iOS) */;
+			targetProxy = 38C543802C0237E5006E477F /* PBXContainerItemProxy */;
+		};
+		38C5438B2C0237E5006E477F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38C543872C0237E5006E477F /* Clean search Extension (macOS) */;
+			targetProxy = 38C5438A2C0237E5006E477F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38C5434A2C0237E4006E477F /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38C5434B2C0237E4006E477F /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		38C543672C0237E5006E477F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38C543682C0237E5006E477F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		38C5436A2C0237E5006E477F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38C5436B2C0237E5006E477F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38C543762C0237E5006E477F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38C543772C0237E5006E477F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38C543AD2C0237E5006E477F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38C543AE2C0237E5006E477F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		38C543B02C0237E5006E477F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6B2GAPXH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Clean search Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.varodonaire.Clean-search.Extension";
+				PRODUCT_NAME = "Clean search Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38C543B12C0237E5006E477F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6B2GAPXH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Clean search Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.varodonaire.Clean-search.Extension";
+				PRODUCT_NAME = "Clean search Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38C543B42C0237E5006E477F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6B2GAPXH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Clean search";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.varodonaire.Clean-search";
+				PRODUCT_NAME = "Clean search";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38C543B52C0237E5006E477F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6B2GAPXH6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Clean search";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.varodonaire.Clean-search";
+				PRODUCT_NAME = "Clean search";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38C543B72C0237E5006E477F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Clean search.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6B2GAPXH6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Clean search Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.varodonaire.Clean-search.Extension";
+				PRODUCT_NAME = "Clean search Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		38C543B82C0237E5006E477F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Clean search.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6B2GAPXH6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Clean search Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.varodonaire.Clean-search.Extension";
+				PRODUCT_NAME = "Clean search Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		38C543BB2C0237E5006E477F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Clean search.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6B2GAPXH6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Clean search";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.varodonaire.Clean-search";
+				PRODUCT_NAME = "Clean search";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		38C543BC2C0237E5006E477F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Clean search.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6B2GAPXH6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Clean search";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.varodonaire.Clean-search";
+				PRODUCT_NAME = "Clean search";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38C543472C0237E4006E477F /* Build configuration list for PBXProject "Clean search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C543AD2C0237E5006E477F /* Debug */,
+				38C543AE2C0237E5006E477F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38C543AF2C0237E5006E477F /* Build configuration list for PBXNativeTarget "Clean search Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C543B02C0237E5006E477F /* Debug */,
+				38C543B12C0237E5006E477F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38C543B32C0237E5006E477F /* Build configuration list for PBXNativeTarget "Clean search (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C543B42C0237E5006E477F /* Debug */,
+				38C543B52C0237E5006E477F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38C543B62C0237E5006E477F /* Build configuration list for PBXNativeTarget "Clean search Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C543B72C0237E5006E477F /* Debug */,
+				38C543B82C0237E5006E477F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38C543BA2C0237E5006E477F /* Build configuration list for PBXNativeTarget "Clean search (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C543BB2C0237E5006E477F /* Debug */,
+				38C543BC2C0237E5006E477F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38C543442C0237E4006E477F /* Project object */;
+}
