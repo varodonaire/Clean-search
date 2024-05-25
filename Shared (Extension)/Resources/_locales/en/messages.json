@@ -4,7 +4,7 @@
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "This is Clean search. You should tell us what your extension does here.",
+        "message": "This extension cleans your Google search results of AI and gives you a clean search experience.",
         "description": "Description of what the extension does."
     }
 }

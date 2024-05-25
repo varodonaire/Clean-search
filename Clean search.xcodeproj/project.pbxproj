@@ -35,16 +35,8 @@
 		38C543A02C0237E5006E477F /* images in Resources */ = {isa = PBXBuildFile; fileRef = 38C543552C0237E5006E477F /* images */; };
 		38C543A12C0237E5006E477F /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 38C543562C0237E5006E477F /* manifest.json */; };
 		38C543A22C0237E5006E477F /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 38C543562C0237E5006E477F /* manifest.json */; };
-		38C543A32C0237E5006E477F /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 38C543572C0237E5006E477F /* background.js */; };
-		38C543A42C0237E5006E477F /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 38C543572C0237E5006E477F /* background.js */; };
 		38C543A52C0237E5006E477F /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 38C543582C0237E5006E477F /* content.js */; };
 		38C543A62C0237E5006E477F /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 38C543582C0237E5006E477F /* content.js */; };
-		38C543A72C0237E5006E477F /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 38C543592C0237E5006E477F /* popup.html */; };
-		38C543A82C0237E5006E477F /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 38C543592C0237E5006E477F /* popup.html */; };
-		38C543A92C0237E5006E477F /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 38C5435A2C0237E5006E477F /* popup.css */; };
-		38C543AA2C0237E5006E477F /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 38C5435A2C0237E5006E477F /* popup.css */; };
-		38C543AB2C0237E5006E477F /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 38C5435B2C0237E5006E477F /* popup.js */; };
-		38C543AC2C0237E5006E477F /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 38C5435B2C0237E5006E477F /* popup.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,11 +92,7 @@
 		38C543542C0237E5006E477F /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		38C543552C0237E5006E477F /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		38C543562C0237E5006E477F /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		38C543572C0237E5006E477F /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
 		38C543582C0237E5006E477F /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		38C543592C0237E5006E477F /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		38C5435A2C0237E5006E477F /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		38C5435B2C0237E5006E477F /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		38C543602C0237E5006E477F /* Clean search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clean search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C543632C0237E5006E477F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38C543652C0237E5006E477F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -203,11 +191,7 @@
 				38C543542C0237E5006E477F /* _locales */,
 				38C543552C0237E5006E477F /* images */,
 				38C543562C0237E5006E477F /* manifest.json */,
-				38C543572C0237E5006E477F /* background.js */,
 				38C543582C0237E5006E477F /* content.js */,
-				38C543592C0237E5006E477F /* popup.html */,
-				38C5435A2C0237E5006E477F /* popup.css */,
-				38C5435B2C0237E5006E477F /* popup.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -414,14 +398,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38C543A32C0237E5006E477F /* background.js in Resources */,
-				38C543A92C0237E5006E477F /* popup.css in Resources */,
-				38C543A72C0237E5006E477F /* popup.html in Resources */,
 				38C5439F2C0237E5006E477F /* images in Resources */,
 				38C543A12C0237E5006E477F /* manifest.json in Resources */,
 				38C5439D2C0237E5006E477F /* _locales in Resources */,
 				38C543A52C0237E5006E477F /* content.js in Resources */,
-				38C543AB2C0237E5006E477F /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,14 +409,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38C543A42C0237E5006E477F /* background.js in Resources */,
-				38C543AA2C0237E5006E477F /* popup.css in Resources */,
-				38C543A82C0237E5006E477F /* popup.html in Resources */,
 				38C543A02C0237E5006E477F /* images in Resources */,
 				38C543A22C0237E5006E477F /* manifest.json in Resources */,
 				38C5439E2C0237E5006E477F /* _locales in Resources */,
 				38C543A62C0237E5006E477F /* content.js in Resources */,
-				38C543AC2C0237E5006E477F /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,6 +694,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Clean search";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -756,6 +733,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Clean search";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
