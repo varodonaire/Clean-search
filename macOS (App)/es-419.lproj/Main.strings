@@ -1,0 +1,36 @@
+
+/* Class = "NSMenuItem"; title = "Clean search"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "Clean search";
+
+/* Class = "NSMenuItem"; title = "Quit Clean search"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Quit Clean search";
+
+/* Class = "NSMenuItem"; title = "About Clean search"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "About Clean search";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Main Menu";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
+"F2S-fz-NVQ.title" = "Help";
+
+/* Class = "NSMenuItem"; title = "Clean search Help"; ObjectID = "FKE-Sm-Kum"; */
+"FKE-Sm-Kum.title" = "Clean search Help";
+
+/* Class = "NSWindow"; title = "Clean search"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "Clean search";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "Show All";
+
+/* Class = "NSMenuItem"; title = "Hide Clean search"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Hide Clean search";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "Hide Others";
+
+/* Class = "NSMenu"; title = "Clean search"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "Clean search";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "wpr-3q-Mcd"; */
+"wpr-3q-Mcd.title" = "Help";
